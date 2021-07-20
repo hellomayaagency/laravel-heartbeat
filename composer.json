@@ -1,0 +1,53 @@
+{
+  "name": "yadda/laravel-heartbeat",
+  "description": "Monitor Laravel queue and schedule status",
+  "keywords": [
+    "yadda",
+    "laravel-heartbeat"
+  ],
+  "homepage": "https://github.com/yadda/laravel-heartbeat",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Jake Gully",
+      "email": "jake@maya.agency",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.0|^8.0",
+    "illuminate/support": ">5.4"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^6.0",
+    "phpunit/phpunit": "^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Yadda\\LaravelHeartbeat\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Yadda\\LaravelHeartbeat\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit",
+    "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Yadda\\LaravelHeartbeat\\LaravelHeartbeatServiceProvider"
+      ],
+      "aliases": {
+        "LaravelHeartbeat": "Yadda\\LaravelHeartbeat\\LaravelHeartbeatFacade"
+      }
+    }
+  }
+}
