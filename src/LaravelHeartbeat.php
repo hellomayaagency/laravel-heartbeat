@@ -1,6 +1,6 @@
 <?php
 
-namespace Yadda\LaravelHeartbeat;
+namespace Maya\LaravelHeartbeat;
 
 class LaravelHeartbeat
 {

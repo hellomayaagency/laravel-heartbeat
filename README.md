@@ -13,7 +13,7 @@ This package relies on the database queue driver being used.
 Install the package via composer:
 
 ```bash
-composer require yadda/laravel-heartbeat
+composer require hellomayaagency/laravel-heartbeat
 ```
 
 Enable the scheduled heartbeat command:
@@ -40,7 +40,7 @@ Add a route to the heartbeat status page:
 
 ```php
 // routes/web.php
-Route::get('heartbeat', '\Yadda\LaravelHeartbeat\Http\Controllers\HeartbeatController@index');
+Route::get('heartbeat', '\Maya\LaravelHeartbeat\Http\Controllers\HeartbeatController@index');
 
 // or
 
@@ -75,7 +75,7 @@ If you discover any security related issues, please email jake@maya.agency inste
 
 ## Credits
 
--   [Jake Gully](https://github.com/yadda)
+-   [Jake Gully](https://github.com/hellomayaagency)
 -   [All Contributors](../../contributors)
 
 ## License

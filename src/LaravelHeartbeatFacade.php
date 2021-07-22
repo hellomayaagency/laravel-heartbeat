@@ -1,11 +1,11 @@
 <?php
 
-namespace Yadda\LaravelHeartbeat;
+namespace Maya\LaravelHeartbeat;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Yadda\LaravelHeartbeat\Skeleton\SkeletonClass
+ * @see \Maya\LaravelHeartbeat\Skeleton\SkeletonClass
  */
 class LaravelHeartbeatFacade extends Facade
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Yadda\LaravelHeartbeat\Http\Controllers;
+namespace Maya\LaravelHeartbeat\Http\Controllers;
 
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Cache;

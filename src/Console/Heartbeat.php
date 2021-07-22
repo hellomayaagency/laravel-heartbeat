@@ -1,13 +1,13 @@
 <?php
 
-namespace Yadda\LaravelHeartbeat\Console;
+namespace Maya\LaravelHeartbeat\Console;
 
 use Carbon\Carbon;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
-use Yadda\LaravelHeartbeat\Jobs\QueueHeartbeat;
+use Maya\LaravelHeartbeat\Jobs\QueueHeartbeat;
 
 class Heartbeat extends Command
 {

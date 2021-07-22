@@ -1,6 +1,6 @@
 <?php
 
-namespace Yadda\LaravelHeartbeat\Jobs;
+namespace Maya\LaravelHeartbeat\Jobs;
 
 use Carbon\Carbon;
 use Illuminate\Bus\Queueable;

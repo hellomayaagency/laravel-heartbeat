@@ -1,11 +1,15 @@
 {
-  "name": "yadda/laravel-heartbeat",
+  "name": "hellomayaagency/laravel-heartbeat",
   "description": "Monitor Laravel queue and schedule status",
   "keywords": [
-    "yadda",
-    "laravel-heartbeat"
+    "maya",
+    "laravel",
+    "heartbeat",
+    "queue",
+    "schedule",
+    "monitoring"
   ],
-  "homepage": "https://github.com/yadda/laravel-heartbeat",
+  "homepage": "https://github.com/hellomayaagency/laravel-heartbeat",
   "license": "MIT",
   "type": "library",
   "authors": [
@@ -25,12 +29,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Yadda\\LaravelHeartbeat\\": "src"
+      "Maya\\LaravelHeartbeat\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Yadda\\LaravelHeartbeat\\Tests\\": "tests"
+      "Maya\\LaravelHeartbeat\\Tests\\": "tests"
     }
   },
   "scripts": {
@@ -43,10 +47,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Yadda\\LaravelHeartbeat\\LaravelHeartbeatServiceProvider"
+        "Maya\\LaravelHeartbeat\\LaravelHeartbeatServiceProvider"
       ],
       "aliases": {
-        "LaravelHeartbeat": "Yadda\\LaravelHeartbeat\\LaravelHeartbeatFacade"
+        "LaravelHeartbeat": "Maya\\LaravelHeartbeat\\LaravelHeartbeatFacade"
       }
     }
   }

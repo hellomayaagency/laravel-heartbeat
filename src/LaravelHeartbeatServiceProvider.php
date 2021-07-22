@@ -1,9 +1,9 @@
 <?php
 
-namespace Yadda\LaravelHeartbeat;
+namespace Maya\LaravelHeartbeat;
 
 use Illuminate\Support\ServiceProvider;
-use Yadda\LaravelHeartbeat\Console\Heartbeat;
+use Maya\LaravelHeartbeat\Console\Heartbeat;
 
 class LaravelHeartbeatServiceProvider extends ServiceProvider
 {
