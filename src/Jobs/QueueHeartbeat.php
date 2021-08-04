@@ -36,6 +36,6 @@ class QueueHeartbeat implements ShouldQueue
 
         Cache::forever('queue_heartbeat', Carbon::now());
 
-        static::dispatch()->delay(Carbon::now()->addMinutes(config('heartrate.heartrate', 10)));
+        static::dispatch()->delay(Carbon::now()->addMinutes(config('heartbeat.heartrate', 10)));
     }
 }
