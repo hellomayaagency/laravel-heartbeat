@@ -44,7 +44,7 @@ Route::get('heartbeat', '\Maya\LaravelHeartbeat\Http\Controllers\HeartbeatContro
 
 // or
 
-Route::get('heartbeat', [HeartbeatController::class, 'index');
+Route::get('heartbeat', [HeartbeatController::class, 'index']);
 ```
 
 ## Usage
